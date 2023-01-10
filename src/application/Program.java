@@ -19,5 +19,9 @@ public class Program {
         System.out.println("\n==== TEST 2: Seller findByDepartment ====");
         List<Seller> list = sd.findByDepartment(new Department(2, "Electronics"));
         list.forEach(System.out::println);
+
+        System.out.println("\n==== TEST 3: Seller findAll ====");
+        list = sd.findAll();
+        list.forEach(System.out::println);
     }
 }

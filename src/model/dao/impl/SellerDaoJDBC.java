@@ -80,11 +80,6 @@ public class SellerDaoJDBC implements SellerDao{
     }
 
     @Override
-    public void delete(Seller obj) {
-        
-    }
-
-    @Override
     public void deleteById(Integer id) {
         PreparedStatement st = null;
         try{
